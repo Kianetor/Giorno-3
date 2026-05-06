@@ -30,6 +30,7 @@ nav a {
     color: yellow;
     text-align: center;
 }
+
 nav a:hover {
     background: yellow;
     color: black;
@@ -79,14 +80,21 @@ label {
 }
 
 input,
-textarea {
+textarea,
+select {
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
+    width: 60%;
 }
 
+#consenso {
+    width: auto;
+}
 
+input:focus,
+select:focus,
 textarea:focus {
-    background-color: bisque;
+    background-color: lightblue;
 }
 
 
@@ -101,9 +109,10 @@ button:hover {
     background: darkblue;
 }
 
-#site-footer{
+
+#site-footer {
     background: blue;
-    color: ffffff;
+    color: white;
     text-align: center;
-    font-size: 0.9rem       ;
+    font-size: 0.9rem;
 }
