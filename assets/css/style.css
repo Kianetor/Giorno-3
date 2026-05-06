@@ -1,0 +1,109 @@
+html {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.7;
+}
+
+#site-header {
+    background: #fff;
+    background-image: url('https://www.istockphoto.com/resources/images/HomePage/Tiles/C7-APRIL-iStock-1312066565.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#site-header h1 {
+    color: blue;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.tagline {
+    color: white;
+    font-style: italic;
+
+}
+
+nav a {
+    background: none;
+    color: yellow;
+    text-align: center;
+}
+nav a:hover {
+    background: yellow;
+    color: black;
+}
+
+h2,
+h3 {
+    font-size: 1.5rem;
+    color: green;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#chi-sono {
+    color: grey;
+    background: white;
+    text-align: justify;
+}
+
+#chi-sono p:first-of-type {
+    color: black;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.skill-list li:nth-child(odd) {
+    background: grey;
+}
+
+
+.skill-list li:nth-child(even) {
+    background: lightgrey;
+
+}
+
+.skill-list-child {
+    font-weight: bold;
+}
+
+#esperienze {
+    border: black solid 1px;
+}
+
+label {
+    font-weight: bold;
+    color: darkblue
+}
+
+input,
+textarea {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+
+textarea:focus {
+    background-color: bisque;
+}
+
+
+button {
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkblue;
+}
+
+#site-footer{
+    background: blue;
+    color: ffffff;
+    text-align: center;
+    font-size: 0.9rem       ;
+}
